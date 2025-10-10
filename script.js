@@ -7,13 +7,13 @@ function exercici1(){
 }
 function exercici2(){
    let nom = "Lola Martínez"
-   document.writeln("Lola Martínez")
-   let curs = "1r Batx"
-   document.writeln("1r Batxillerat")
+   document.writeln(nom)
+   let curs = "1r Batxillerat"
+   document.writeln(curs)
    let bachi = "Científic"
-   document.writeln("Científic")
-   let any = "año"
-   document.writeln("2025")
+   document.writeln(científic)
+   let any = "2025"
+   document.writeln(2025)
    let estudis = "medicina"
    document.writeln("Carrera universitària de medicina")
 }
@@ -30,6 +30,38 @@ function exercici4(){
    let notes = 5+6+8+2+7
    let mitjana = notes/5
    document.writeln("La suma de les notes es "+notes+ " i la seva mitjana es: "+mitjana)
+}
+function exercici5(){
+    
+   let a,b,c;
+   a = 2
+   b = 4
+   c = 1
+   let bNeg = -b
+   let quadrat = Math.pow(b,2)
+   let arrel = Math.sqrt(quadrat-(4*a*c));
+   let num1 = bNeg+arrel
+   let num2 = bNeg-arrel
+   let den = 2*a;
+   let valor1 = num1/den
+   let valor2 = num2/den
+
+   document.writeln("Les solucions són: "+valor1+ " i "+valor2)
+}
+function exercici6(){
+  let actor = prompt("Quin és el teu actor preferit?")
+  let nom = prompt("Quin és el teu nom?")
+  document.writeln("EL meu nom és "+nom+" i el meu actor preferit és "+actor)
+}
+function exercici7(){
+   let num1 = parseFloat(prompt("intruduce número"))
+   let num2 = parseFloat(prompt("intruduce número"))
+   let num3 = parseFloat(prompt("intruduce número"))
+   let num4 = parseFloat(prompt("intruduce número"))
+   let num5 = parseFloat(prompt("intruduce número"))
+   let notes = num1+num2+num3+num4+num5
+   let mitjana = notes/5
+   document.writeln("La mitjana aritmètica és de: +"resultat+"")
 }
 
 
