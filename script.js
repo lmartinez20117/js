@@ -61,8 +61,33 @@ function exercici7(){
    let num5 = parseFloat(prompt("intruduce número"))
    let notes = num1+num2+num3+num4+num5
    let mitjana = notes/5
-   document.writeln("La mitjana aritmètica és de: +"resultat+"")
+   document.writeln("La mitjana aritmètica és de: "+mitjana)
+}
+function exercici8(){
+     let a,b,c;
+   a =  parseFloat(prompt("intruduce número"))
+   b =  parseFloat(prompt("intruduce número"))
+   c =  parseFloat(prompt("intruduce número"))
+   let bNeg = -b
+   let quadrat = Math.pow(b,2)
+   let arrel = Math.sqrt(quadrat-(4*a*c));
+   let num1 = bNeg+arrel
+   let num2 = bNeg-arrel
+   let den = 2*a;
+   let valor1 = num1/den
+   let valor2 = num2/den
+
+      document.writeln("Les solucions són: "+valor1+ " i "+valor2)
 }
 
+function exercici9(){
+    let numero = prompt("Quin és el primer nombre?")
+    let numero2 = prompt("Quin es el segon nombre?")
+    if(numero > numero2){
+        alert("Hola, el meu nom és Lola i el primer nombre és major o igual que el segon")
+    }else if (numero < numero2){
+        alert("Hola, el meu primer llinatge és Martínez i el primer nombre és menor que el segon")
+}
+}
 
 
